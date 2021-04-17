@@ -1,0 +1,34 @@
+/*全局样式表*/
+html,body,#app{
+  height:100%;margin:0;padding:0;
+  /*设置最小宽度，即使屏幕变小，页面宽度也不会小于1366px*/
+  min-width:1366px;
+}
+/*调整面包屑导航，覆盖默认样式*/
+.el-breadcrumb{
+  margin-bottom:15px;
+  font-size:12px;
+}
+/* .el-card{
+  box-shadow: 0 1px 1px rgba(0,0,0,0.15) !important;
+} */
+.el-table{
+  margin-top:15px;
+  font-size:12px;
+}
+.el-pagination{
+  margin-top:15px;
+}
+/* 修改级联菜单的高度，阻止高度溢出 */
+.el-cascader-menu {
+  height: 250px;
+}
+.el-steps{
+  margin:15px 0;
+}
+.el-step__title{
+font-size:13px;
+}
+.ql-editor{
+min-height:300px;
+}
